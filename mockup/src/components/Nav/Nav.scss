@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  .nav-item {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin: 10px 25px;
+    font-weight: 600;
+    a {
+      text-decoration: none;
+      color: #aaa;
+      padding: 10px 0;
+      &.active {
+        color: black;
+        border-bottom: 4px solid #ff7b45;
+      }
+    }
+  }
+}

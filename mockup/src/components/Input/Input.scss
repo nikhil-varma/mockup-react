@@ -1,0 +1,29 @@
+.input {
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background: #dbdfe4;
+  padding: 0 20px;
+  color: #737272;
+  outline: none;
+  &::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #989898;
+    font-weight: 600;
+  }
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #989898;
+    font-weight: 600;
+  }
+  &:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #989898;
+    font-weight: 600;
+  }
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: #989898;
+    font-weight: 600;
+  }
+}

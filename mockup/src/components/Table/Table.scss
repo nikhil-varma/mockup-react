@@ -1,0 +1,34 @@
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  th {
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: inherit;
+  }
+
+  tr {
+    &:nth-child(even) {
+      td {
+        .pill {
+          background-color: #59b330;
+        }
+      }
+    }
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    height: 80px;
+    border-bottom: 1px solid #efefef;
+    td {
+      button {
+        height: 35px !important;
+        width: 100%;
+        background-color: #24c1e8 !important;
+      }
+    }
+  }
+}

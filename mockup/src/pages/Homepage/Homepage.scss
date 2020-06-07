@@ -1,0 +1,65 @@
+.homepage {
+  font-family: "Open Sans", sans-serif;
+  .page-content {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .meta {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    h1 {
+      color: #545454;
+      padding: 0;
+      margin: 0;
+    }
+    h4 {
+      color: #bbbdc1;
+      text-transform: uppercase;
+      font-size: 14px;
+      padding: 0;
+      margin-top: 13px;
+    }
+    .search-inputs {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      input {
+        margin-right: 40px;
+        flex-grow: 2;
+      }
+      button {
+        flex-grow: 2;
+        width: 40px;
+      }
+    }
+  }
+  .results-counter {
+    height: 80px;
+    line-height: 120px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #24c1e8;
+    border-bottom: 4px solid #24c1e8;
+    display: inline-block;
+  }
+
+  .tabs {
+    .nav {
+      height: 60px;
+      .nav-item {
+        margin-left: 0;
+        margin-right: 30px;
+        a {
+          text-decoration: none;
+          color: #aaa;
+          padding: 10px 0;
+          &.active {
+            color: black;
+            border-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
